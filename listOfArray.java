@@ -17,7 +17,5 @@ public class listOfArray {
         System.out.println(a);
         int c = a.get(1);
         System.out.println(c);
-    
-    
 }
 }
