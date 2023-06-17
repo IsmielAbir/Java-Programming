@@ -6,13 +6,13 @@
 ●	A method named printInfo() that print the information contains on the data fields.*/
 
 package JavaLabReport;
-public class Student {
+public class Student1 {
     private String studentId;
     private String studentName;
     private int batch;
     private String department;
 
-    Student() {
+    Student1() {
         studentId = "";
         studentName = "";
         batch = 0;
@@ -57,7 +57,7 @@ public class Student {
         System.out.println("Department: " + department);
     }
     public static void main(String[] args) {
-        Student std = new Student();
+        Student1 std = new Student1();
         std.setStudentInfo("ab", "id", 12, "cs");
         std.printInfo();
     }

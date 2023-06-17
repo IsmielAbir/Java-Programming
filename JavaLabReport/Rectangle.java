@@ -8,6 +8,7 @@
 
 package JavaLabReport;
 
+
 public class Rectangle {
     private double len;
     private double wid;
